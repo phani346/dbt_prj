@@ -1,11 +1,10 @@
-
-version 2
+version: 2
 
 sources:
   - name: ecom
     schema: raw
-    description: e commerce data
+    description: E-commerce data for the Jaffle Shop
     tables:
-      -name: raw_orders
-       description: One record per order (consisting of one or more order items)
-       loaded_at_field: ordered_at
+      - name: raw_orders
+        description: One record per order (consisting of one or more order items)
+        loaded_at_field: ordered_at
