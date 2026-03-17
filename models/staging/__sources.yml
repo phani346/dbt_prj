@@ -1,1 +1,11 @@
 
+version 2
+
+sources:
+  - name: ecom
+    schema: raw
+    description: e commerce data
+    tables:
+      -name: raw_orders
+       description: One record per order (consisting of one or more order items)
+       loaded_at_field: ordered_at
