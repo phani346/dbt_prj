@@ -6,7 +6,7 @@ source as (
 
 ),
 
-renamed_test as (
+renamed as (
 
     select
 
@@ -30,4 +30,4 @@ renamed_test as (
 
 )
 
-select * from renamed_test
+select * from renamed
