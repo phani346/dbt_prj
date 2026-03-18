@@ -7,6 +7,5 @@ sources:
     tables:
       - name: raw_orders
         description: One record per order (consisting of one or more order items)
-        loaded_at_field: ordered_at
       - name: raw_customers
         description: Customer master data
